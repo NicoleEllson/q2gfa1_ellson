@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+}
+
+html, body{width: 100vw}
+a{text-decoration: none;}
+#bg{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    z-index: -1;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    padding: 10px;
+    background-color: #ffd000;
+}
+
+nav{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    color: #ffd000;
+}
+
+nav a{
+    color: #ffbb00;
+}
+
+section{
+    margin: 10px;
+    padding: 10px;
+}
+
+footer{
+    position: fixed;
+    display:inline-block;
+    justify-content: space-around;
+    left: 0;
+    bottom: 0;
+    gap: 10px;
+}
+
+.textlol{
+    font-family: "ms-gothic";
+    color: antiquewhite;
+}
+
+.links{
+    margin-left: 10px;
+}
+
+.icon{
+    background: url(sprite3.png) no-repeat;
+    width: 66px;
+    height: 66px;
+}
+
+#tumblr{
+    background-position: -216px -146px;
+}
+
+#like{
+    background-position: -587px -221px;
+}
+
+#fb{
+    background-position: -439px -146px;
+}
+
+#twt{
+    background-position: -66px -72px;
+}
+
